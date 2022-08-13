@@ -30,9 +30,27 @@ def main() :
 
   df1 = df[msk]
   # sxl(df1, 'df1.xlsx')
-  df = df[~ msk]
+  # df = df[~ msk]
 
   ##
+  ptr = r'.+' + r'ح'
+  msk = df[btic].str.fullmatch(ptr)
+  df1 = df[msk]
+
+  ##
+  ptr = r'ض' + '.+'
+  msk = df[btic].str.fullmatch(ptr)
+  df1 = df[msk]
+
+  ##
+  ptr = r'ج' + '.+'
+  msk = df[btic].str.fullmatch(ptr)
+  df1 = df[msk]
+
+  ##
+
+
+
 
 
 
