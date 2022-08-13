@@ -1,1 +1,1 @@
-Unique BaseTicker ever traded on TSETMC.com
+Unique BaseTickers ever traded on TSETMC.com
