@@ -24,6 +24,15 @@ def main() :
   sxl(df, fpn)
 
   ##
+  ptr = '\D+'
+  msk = ~ df[btic].str.fullmatch(ptr)
+  msk &= df[btic].str[:-1].isin(df[btic])
+
+  df1 = df[msk]
+  # sxl(df1, 'df1.xlsx')
+  df = df[~ msk]
+
+  ##
 
 
 
