@@ -1,10 +1,19 @@
 ##
-import pandas as pd
+
+"""
+
+  """
+
+##
+
+import json
+from pathlib import Path
+
 from mirutil.funcs import save_df_as_a_nice_xl as sxl
 from mirutil.funcs import read_data_according_to_type as rdata
 
+
 btic = 'BaseTicker'
-fpn = 'Unique-BaseTickers-TSETMC.xlsx'
 
 def main() :
 
@@ -12,18 +21,20 @@ def main() :
   pass
 
   ##
-  df = rdata(fpn)
+  with open('META.json' , 'r') as fi :
+    meta = json.load(fi)
 
+  fpn = Path(meta['fn'])
+  ##
+  df = rdata(fpn)
   ##
   df = df.drop_duplicates()
-
   ##
   df = df.sort_values(btic)
-
   ##
-  sxl(df, fpn)
-
+  sxl(df , fpn)
   ##
+
   ptr = '\D+'
   msk = ~ df[btic].str.fullmatch(ptr)
   msk &= df[btic].str[:-1].isin(df[btic])
@@ -49,9 +60,7 @@ def main() :
 
   ##
 
-
-
-
+##
 
 
 if __name__ == "__main__" :
