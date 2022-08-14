@@ -37,6 +37,8 @@ def main() :
   ##
   sxl(df , fpn)
   ##
+
+
   ptr = '\D+'
   msk = ~ df[btic].str.fullmatch(ptr)
   df1 = df[msk]
