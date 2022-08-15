@@ -1,6 +1,5 @@
 {
-    "description": "Unique BaseTickers on TSETMC.com",
-    "fn": "Unique-BaseTickers-TSETMC.xlsx",
+    "description": "Unique Base Tickers on TSETMC.com",
     "Columns Names": [
         "BaseTicker"
     ]
