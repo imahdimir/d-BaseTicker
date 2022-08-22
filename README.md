@@ -1,1 +1,3 @@
-Unique Base Tickers ever traded on TSETMC.com
+Unique Base Tickers ever listed on TSETMC.com
+
+
