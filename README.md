@@ -15,7 +15,7 @@ For example:
 - خودروح۲ با افزودن ح و سپس ۲ به نماد پایه خودرو ایجاد شده است.
 
 
-> Current data contains only **Base Tickers** ever listed on [TSETMC](http://www.tsetmc.com) as a **reference** for further work. 
+> `data.xlsx`contains only the **Base Tickers** ever listed on [TSETMC](http://www.tsetmc.com) as a **reference** for other works. 
 
 # Tickers to BaseTickers Map
 The dataset which maps every ticker to it's base ticker is availabe
