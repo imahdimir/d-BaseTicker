@@ -8,9 +8,9 @@ by a pattern.
 
 For example:
 
-- "خودرو1" is built by adding 1 to the Base Ticker "خودرو"
-- "خودرو2" is built by adding 2 to the Base Ticker "خودرو"
-- "خودروح2" is built by adding "ح" and then 2 to the Base Ticker "خودرو"
+- نماد -خودرو۱- با افزودن ۱ به نماد پایه -خودرو- ساخته شده است
+- خودرو۲-  با افزودن ۲ به نماد پایه -خودرو- ساخته شده است-
+- خودروح۲ با افزودن ح و سپس ۲ به نماد پایه خودرو ایجاد شده است
 
 # Tickers to BaseTickers Map
 The dataset which maps every ticker to it's base ticker is availabe
