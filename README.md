@@ -1,5 +1,5 @@
 # Short Description
->Unique Base Tickers ever listed on [TSETMC.com](http://www.tsetmc.com)
+>Unique **Base Tickers** ever listed on [TSETMC.com](http://www.tsetmc.com)
 
 # The Underlying Assumption
 I assumed that for each ticker on the [TSETMC](http://www.tsetmc.com) 
