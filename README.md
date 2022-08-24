@@ -1,7 +1,7 @@
 # Short Description
 >Unique Base Tickers ever listed on [TSETMC.com](http://www.tsetmc.com)
 
-# Assumption
+# The Underlying Assumption
 I assumed that for each ticker on the [TSETMC](http://www.tsetmc.com) 
 there is something I call it "**Base Ticker**". 
 In other words, every ticker is built upon a corresponding **Base Ticker**
