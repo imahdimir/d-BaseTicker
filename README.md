@@ -1,5 +1,6 @@
 # Short Description
->Unique **Base Tickers** ever listed on [TSETMC.com](http://www.tsetmc.com)
+> Unique **Base Tickers** ever listed on [TSETMC.com](http://www.tsetmc.com)
+Base tickers have no formal defenition. They just not derived from other tickers.
 
 # The Underlying Assumption
 I assumed that for each ticker on the [TSETMC](http://www.tsetmc.com) 
@@ -17,7 +18,7 @@ For example:
 Here I take the "خودرو" as the "***Base Ticker***".
 
 
-> `data.xlsx`contains ***only*** the **Base Tickers** ever listed on [TSETMC](http://www.tsetmc.com) as the **reference** for other works. 
+> `data.prq`contains ***only*** the **Base Tickers** ever listed on [TSETMC](http://www.tsetmc.com) as the **reference** for other works. 
 
 # Tickers to BaseTickers Map
 The dataset which maps every ticker to it's base ticker is availabe
