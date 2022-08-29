@@ -1,1 +1,1 @@
-***Unique*** **Base Tickers** ever listed on TSETMC.com
+***Unique***  ever listed on TSETMC.com
